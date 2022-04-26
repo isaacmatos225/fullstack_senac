@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: fixed;
+}
+
+.content{
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.area-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.header-left, .header-right {
+    flex: 1;
+    display: flex;
+}
+
+.header-left{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-right{    
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.nav{
+    height: 60px;
+    display: flex;
+    flex: 1;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav ul {
+    flex: 1;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav .header-left ul {
+    justify-content: flex-start;
+}
+
+.nav .header-right ul {
+    justify-content: flex-end;
+}
+
+.nav .header-right ul li {
+    margin-left: 18px;
+}
+
+.banner {
+    height: 100vh;
+}
+
+.bannerzinho {
+    height: 300px;
+}
+
+.banner-medio {
+    height: 500px;
+}
+
+.black {
+    background-color: #000;
+}
+
+.white {
+    background-color: #FFF;
+}
+
+.area-content .home-image img{
+    height: 200px;
+    width: 200px;
+    border-radius: 60%;
+}
+
+.dark {
+    color: #000;
+}
+
+.light {
+    
+    color: rgb(255, 255, 255);
+}
+
+.texto1,
+.texto2{
+    margin-top:20px;
+}
+
+.texto1 {
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.texto2{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.home-descricao{
+    justify-content: center;
+    text-align: center;
+}
+
+.rede-social {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+.rede-social a i {
+    font-size: 48px;
+    color: #FFF;
+    
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;    
+}
+
+.content2{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: red solid;
+    padding-right: 20px ;
+    flex: 1;
+    display: flex;
+}
+
+.texto-card{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+}
+
+.paragrafo{
+    font-size: 20;
+    color: white;
+}
